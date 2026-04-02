@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700&family=Inter:wght@400;500;600;700;800&display=swap");
+
+@layer base {
+  html {
+    -webkit-tap-highlight-color: transparent;
+  }
+  body {
+    @apply bg-spa-900 text-cream antialiased;
+    font-family: "Inter", system-ui, sans-serif;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center rounded-lg bg-sage px-6 py-3 text-sm font-semibold text-spa-900 transition-colors hover:bg-sage-light focus:outline-none focus:ring-2 focus:ring-sage focus:ring-offset-2 focus:ring-offset-spa-900;
+  }
+  .btn-secondary {
+    @apply inline-flex items-center justify-center rounded-lg border border-cream/30 px-6 py-3 text-sm font-semibold text-cream transition-colors hover:bg-cream/10 focus:outline-none focus:ring-2 focus:ring-sage focus:ring-offset-2 focus:ring-offset-spa-900;
+  }
+  .card {
+    @apply rounded-xl border border-cream/10 bg-card shadow-sm transition-shadow hover:shadow-md hover:shadow-sage/5;
+  }
+  .badge {
+    @apply inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium;
+  }
+  .badge-featured {
+    @apply inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium bg-sage/20 text-sage;
+  }
+  .badge-modality {
+    @apply inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium bg-cream/10 text-cream/80;
+  }
+  .input {
+    @apply w-full rounded-lg border border-cream/20 bg-spa-800 px-4 py-3 text-sm text-cream transition-colors placeholder:text-cream/40 focus:border-sage focus:outline-none focus:ring-2 focus:ring-sage/20;
+  }
+  .mv-ad-box {
+    @apply my-6 flex min-h-[250px] items-center justify-center rounded-lg bg-spa-800 text-xs text-cream/30;
+  }
+}
+
+.prose h2 {
+  @apply mt-8 mb-4 font-display text-2xl font-bold text-cream;
+}
+.prose h3 {
+  @apply mt-6 mb-3 font-display text-xl font-semibold text-cream;
+}
+.prose p {
+  @apply mb-4 leading-relaxed text-cream/80;
+}
+.prose ul,
+.prose ol {
+  @apply mb-4 space-y-2 pl-6;
+}
+.prose li {
+  @apply text-cream/80;
+}
+.prose table {
+  @apply mb-6 w-full border-collapse;
+}
+.prose th {
+  @apply border-b-2 border-cream/20 bg-spa-800 px-4 py-3 text-left text-sm font-semibold text-cream;
+}
+.prose td {
+  @apply border-b border-cream/10 px-4 py-3 text-sm text-cream/80;
+}
+.prose blockquote {
+  @apply my-6 border-l-4 border-sage bg-sage/5 py-4 pr-4 pl-6 text-cream/80 italic;
+}
+.prose a {
+  @apply text-sage underline decoration-sage/30 underline-offset-2 hover:decoration-sage;
+}

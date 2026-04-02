@@ -1,0 +1,47 @@
+# Mobile Massage Directory
+
+> A directory of licensed mobile massage therapists serving 200+ cities across the United States.
+
+## About
+
+Mobile Massage Directory helps people find licensed, insured mobile massage therapists who travel to their home, office, or hotel. The directory covers over 200 US cities and 8 massage modalities.
+
+## Massage Modalities Covered
+
+- Swedish Massage — Relaxation massage with long, flowing strokes. $80-$150/hr.
+- Deep Tissue Massage — Firm pressure targeting deep muscle layers and fascia. $100-$180/hr.
+- Sports Massage — For athletes and active individuals. Combines deep tissue with stretching. $100-$200/hr.
+- Prenatal Massage — Gentle massage adapted for pregnant women. $90-$170/hr.
+- Hot Stone Massage — Heated basalt stones used for deep muscle relaxation. $110-$200/hr.
+- Couples Massage — Two therapists, two tables, one room. Simultaneous massages. $200-$400/hr.
+- Lymphatic Drainage Massage — Gentle technique to stimulate lymph flow. $100-$190/hr.
+- Trigger Point Therapy — Targeted pressure on muscle knots that cause referred pain. $100-$180/hr.
+
+## Major Cities Served
+
+Los Angeles, New York, Chicago, Houston, Phoenix, Philadelphia, San Antonio, San Diego, Dallas, San Jose, Austin, Jacksonville, Fort Worth, Columbus, Charlotte, Indianapolis, San Francisco, Seattle, Denver, Washington DC, Nashville, Oklahoma City, El Paso, Boston, Portland, Las Vegas, Memphis, Louisville, Baltimore, Milwaukee, and 170+ more.
+
+## Key Pages
+
+- Homepage: /
+- City Pages: /mobile-massage-{city}-{state-abbr} (e.g., /mobile-massage-los-angeles-ca)
+- Modality Pages: /{modality-slug} (e.g., /deep-tissue-massage-near-me)
+- Individual Listings: /listing/{business-slug}
+- Blog: /blog
+
+## Blog Articles
+
+- How Much Does a Mobile Massage Therapist Cost in 2026? — /blog/how-much-does-mobile-massage-cost
+- Mobile Massage vs Spa: Which Is Actually Better? — /blog/mobile-vs-spa-massage
+- How to Find a Licensed Mobile Massage Therapist Near You (7 Things to Check) — /blog/how-to-find-licensed-mobile-massage-therapist
+- Best Massage for Back Pain in 2026 (According to Therapists) — /blog/best-massage-for-back-pain
+- How to Plan a Couples Massage at Home (Complete Guide) — /blog/couples-massage-at-home-guide
+- Deep Tissue vs Swedish Massage: Which Is Right for You? — /blog/deep-tissue-vs-swedish-massage
+
+## Listing Information
+
+Each listing includes: business name, owner name, city, state, ZIP codes served, modalities offered, price range, licensing status, insurance status, star rating, review count, and client reviews.
+
+## Contact
+
+For listing inquiries or corrections, use the contact form on the website.
