@@ -80,7 +80,7 @@ export default function TherapistCard({ listing }: { listing: Listing }) {
           </Link>
           {listing.phone && (
             <a
-              href={`tel:${listing.phone}`}
+              href={`tel:${listing.phone?.replace(/\D/g, "")}`}
               className="flex h-10 w-10 items-center justify-center rounded-lg border border-cream/20 text-cream/50 transition-colors hover:border-sage hover:text-sage"
               aria-label={`Call ${listing.business_name}`}
             >

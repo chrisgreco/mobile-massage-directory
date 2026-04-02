@@ -231,7 +231,7 @@ export default async function ListingPage({
             <div className="mb-8 flex flex-wrap gap-4">
               {listing.phone && (
                 <a
-                  href={`tel:${listing.phone}`}
+                  href={`tel:${listing.phone?.replace(/\D/g, "")}`}
                   className="btn-primary gap-2"
                 >
                   <Phone className="h-4 w-4" />
