@@ -298,6 +298,14 @@ export default async function ListingPage({
 
           {/* Sidebar */}
           <aside className="space-y-6">
+            <div className="rounded-lg border border-cream/10 bg-card p-4 text-center">
+              <p className="text-sm text-cream/60">
+                Own this business?{" "}
+                <Link href="/add-listing" className="font-semibold text-sage hover:underline">
+                  Claim your listing.
+                </Link>
+              </p>
+            </div>
             <LeadForm city={listing.city} state={listing.state_abbr} />
 
             {/* Similar therapists */}

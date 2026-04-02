@@ -71,14 +71,14 @@ function Header() {
             Guides
           </Link>
           <Link href="/add-listing" className="btn-primary py-2 text-sm">
-            List Your Practice
+            Claim Your Listing
           </Link>
         </div>
         <Link
           href="/add-listing"
           className="btn-primary py-2 text-sm md:hidden"
         >
-          List Your Practice
+          Claim Your Listing
         </Link>
       </nav>
     </header>
@@ -154,7 +154,7 @@ function Footer() {
               </li>
               <li>
                 <Link href="/add-listing" className="text-cream/60 hover:text-cream">
-                  List Your Practice
+                  Claim Your Listing
                 </Link>
               </li>
             </ul>

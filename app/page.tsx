@@ -301,17 +301,17 @@ export default async function HomePage() {
       <section className="bg-sage px-4 py-14">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="mb-3 font-display text-2xl font-bold text-spa-900">
-            Are You a Mobile Massage Therapist?
+            Own a Listed Business?
           </h2>
           <p className="mb-6 text-spa-700">
-            Get found by thousands of clients searching for massage
-            services in your area. List your practice for free.
+            Already listed? Claim your profile to update your info, add photos,
+            and respond to reviews.
           </p>
           <Link
             href="/add-listing"
             className="inline-flex items-center gap-2 rounded-xl bg-spa-900 px-8 py-3.5 font-semibold text-cream transition-colors hover:bg-spa-800"
           >
-            Add Your Practice <ArrowRight className="h-4 w-4" />
+            Claim Your Listing <ArrowRight className="h-4 w-4" />
           </Link>
         </div>
       </section>
